@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".activities.GameplayActivity"
             android:theme="@style/FullScreenTheme"/>
+        <activity android:name=".activities.GameoverActivity"
+            android:theme="@style/FullScreenTheme"/>
     </application>
 
 </manifest>

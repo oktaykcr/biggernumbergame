@@ -94,6 +94,7 @@
                 android:textSize="25dp"/>
 
             <TextView
+                android:id="@+id/text_level"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="0"
@@ -123,49 +124,57 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:text="0"
-                android:textSize="40dp" />
+                android:textSize="40dp"
+                android:onClick="onClickButton"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
-                android:layout_rowWeight="1"/>
+                android:layout_rowWeight="1"
+                android:onClick="onClickButton"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
-                android:layout_rowWeight="1"/>
+                android:layout_rowWeight="1"
+                android:onClick="onClickButton"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
-                android:layout_rowWeight="1"/>
+                android:layout_rowWeight="1"
+                android:onClick="onClickButton"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
-                android:layout_rowWeight="1"/>
+                android:layout_rowWeight="1"
+                android:onClick="onClickButton"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
-                android:layout_rowWeight="1"/>
+                android:layout_rowWeight="1"
+                android:onClick="onClickButton"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
-                android:layout_rowWeight="1"/>
+                android:layout_rowWeight="1"
+                android:onClick="onClickButton"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
-                android:layout_rowWeight="1"/>
+                android:layout_rowWeight="1"
+                android:onClick="onClickButton"/>
 
         </GridLayout>
 
