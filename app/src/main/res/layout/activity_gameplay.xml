@@ -54,8 +54,9 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_launcher_background"
-                    android:layout_gravity="center"/>
+                    android:src="@drawable/ic_timer"
+                    android:layout_gravity="center"
+                    android:padding="5dp"/>
 
             </LinearLayout>
 
@@ -117,7 +118,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:rowCount="4"
-            android:columnCount="2">
+            android:columnCount="2"
+            android:padding="10dp">
 
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
@@ -125,56 +127,72 @@
                 android:layout_columnWeight="1"
                 android:text="0"
                 android:textSize="40dp"
-                android:onClick="onClickButton"/>
+                android:onClick="onClickButton"
+                android:background="@drawable/btn_number"
+                android:layout_margin="5dp" />
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:onClick="onClickButton"/>
+                android:onClick="onClickButton"
+                android:background="@drawable/btn_number"
+                android:layout_margin="5dp"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:onClick="onClickButton"/>
+                android:onClick="onClickButton"
+                android:background="@drawable/btn_number"
+                android:layout_margin="5dp"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:onClick="onClickButton"/>
+                android:onClick="onClickButton"
+                android:background="@drawable/btn_number"
+                android:layout_margin="5dp"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:onClick="onClickButton"/>
+                android:onClick="onClickButton"
+                android:background="@drawable/btn_number"
+                android:layout_margin="5dp"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:onClick="onClickButton"/>
+                android:onClick="onClickButton"
+                android:background="@drawable/btn_number"
+                android:layout_margin="5dp"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:onClick="onClickButton"/>
+                android:onClick="onClickButton"
+                android:background="@drawable/btn_number"
+                android:layout_margin="5dp"/>
             <Button
                 android:layout_gravity="fill_horizontal|fill_vertical"
                 android:textSize="40dp"
                 android:text="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:onClick="onClickButton"/>
+                android:onClick="onClickButton"
+                android:background="@drawable/btn_number"
+                android:layout_margin="5dp"/>
 
         </GridLayout>
 

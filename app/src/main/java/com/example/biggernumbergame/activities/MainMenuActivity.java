@@ -14,6 +14,9 @@ public class MainMenuActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
+
+        // play fade in animation on create activity
+        overridePendingTransition(R.anim.anim_fadein, R.anim.anim_fadeout);
     }
 
     @Override

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="drawable_buttons">
+        <item>@drawable/btn_number</item>
+        <item>@drawable/btn_number2</item>
+        <item>@drawable/btn_number3</item>
+        <item>@drawable/btn_number4</item>
+        <item>@drawable/btn_number5</item>
+        <item>@drawable/btn_number6</item>
+        <item>@drawable/btn_number7</item>
+    </array>
+
+</resources>
