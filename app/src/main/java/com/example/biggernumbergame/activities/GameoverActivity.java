@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.example.biggernumbergame.R;
 import com.example.biggernumbergame.helpers.ActivityHelper;
+import com.example.biggernumbergame.helpers.AlertDialogHelper;
 import com.example.biggernumbergame.services.StorageService;
 
 public class GameoverActivity extends AppCompatActivity {
@@ -37,6 +38,11 @@ public class GameoverActivity extends AppCompatActivity {
 
         String[] best = checkHighScore(level, correctCount);
         text_highscore.setText("Level: " + best[0] + ", Correct: " + best[1]);
+    }
+
+    @Override
+    public void onBackPressed() {
+        AlertDialogHelper.showExitDialog(this);
     }
 
     public void onClickMenuButton(View view) {

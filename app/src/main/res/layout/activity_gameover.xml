@@ -10,12 +10,12 @@
         android:layout_height="match_parent"
         android:layout_weight="4">
 
-        <TextView
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Game Over"
-            android:gravity="center"
-            android:textSize="40dp"/>
+            android:src="@drawable/gameover"
+            android:scaleType="center"
+            android:gravity="center" />
 
     </LinearLayout>
 
@@ -76,26 +76,33 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             android:orientation="horizontal"
-            android:layout_margin="20dp">
+            android:layout_margin="20dp"
+            android:gravity="center">
 
-            <Button
+            <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Menu"
-                android:onClick="onClickMenuButton"/>
+                android:layout_height="50dp"
+                android:src="@drawable/ic_menu"
+                android:scaleType="fitCenter"
+                android:onClick="onClickMenuButton"
+                android:layout_weight="1"
+                android:background="@drawable/btn_number2"/>
 
             <View
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_weight="1"/>
 
-            <Button
+            <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Restart"
-                android:onClick="onClickRestartButton" />
+                android:layout_height="50dp"
+                android:src="@drawable/ic_restore"
+                android:scaleType="fitCenter"
+                android:onClick="onClickRestartButton"
+                android:layout_weight="1"
+                android:background="@drawable/btn_number5"/>
 
         </LinearLayout>
 
